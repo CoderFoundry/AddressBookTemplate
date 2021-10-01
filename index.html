@@ -19,7 +19,7 @@
     <div class="container mt-5">
         <h2>Address Book</h2>
         <div class="p-3 border border-2 shadow-lg bg-light">
-            <form class="row g-3 p-2" netlify name="addressBookForm">
+            <form class="row g-3 p-2" netlify name="addressBookForm" data-netlify-recaptcha="true">
                 <div class="col-12 col-md-4">
                     <img class="img-fluid" src="img/GirlOne@4x.png">
                 </div>
@@ -120,6 +120,7 @@
                                 <label class="form-check-label" for="checkFamily">Family</label>
                             </div>
                         </div>
+                        <div data-netlify-recaptcha="true"></div>
                         <div class="col-12 d-flex justify-content-end">
                             <button type="submit" class="btn btn-lg btn-primary">Save</button>
                         </div>

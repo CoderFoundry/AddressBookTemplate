@@ -18,29 +18,32 @@
 <body class="h-100 contactForm">
     <div class="container">
         <h2>Contact Form</h2>
-        <div class="p-3 border border-2 shadow-lg bg-light">
+        <div class="p-3 border border-2 rounded shadow-lg bg-light">
             <form class="row g-3 p-2" netlify name="contactForm" data-netlify-recaptcha="true">
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-md-6 form-group">
                             <label for="inputFirstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" name="firstName" id="inputFirstName">
+                            <input type="text" class="form-control" name="firstName" id="inputFirstName" required>
                         </div>
                         <div class="col-12 col-md-6 form-group">
                             <label for="inputLastName" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" name="lastName" id="inputLastName">
+                            <input type="text" class="form-control" name="lastName" id="inputLastName" required>
                         </div>
                         <div class="col-12 col-md-4 form-group">
                             <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" name="email" id="inputEmail">
+                            <input type="email" class="form-control" name="email" id="inputEmail"
+                                placeholder="example@email.com" required>
                         </div>
                         <div class="col-12 col-md-4 form-group">
                             <label for="inputPhone" class="form-label">Phone</label>
-                            <input type="tel" class="form-control" name="phone" id="inputPhone">
+                            <input type="tel" class="form-control" name="phone" id="inputPhone"
+                                placeholder="555-555-0101">
                         </div>
                         <div class="col-12 col-md-4 form-group">
                             <label for="contactReason" class="form-label">Reason</label>
                             <select id="contactReason" class="form-select" name="contactReason">
+                                <option>Choose one...</option>
                                 <option value="freelance">Freelance Work</option>
                                 <option value="contract">Contract Offer</option>
                                 <option value="personal">Personal</option>

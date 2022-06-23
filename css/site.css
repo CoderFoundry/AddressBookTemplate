@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root {
     --cf-primaryColor: #0869b8;
     --cf-primaryColorDark: #002a4e;
@@ -20,10 +19,6 @@ body {
 }
 
 body {
-=======
-body.addressBook {
-    background: #1c92d2;
->>>>>>> c075aa5c284f07368359114df4f408544e9421d0
     /* fallback for old browsers */
     background-color: var(--cf-primaryColorLight);
     display: flex;

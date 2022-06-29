@@ -145,9 +145,19 @@ main {
     height: fit-content;
 }
 
-.iconLinks{
-    color: var(--cf-primaryColor);
+.editIcons {
+    font-size: 1.5rem;
+    opacity: .9;
+    color: var(--cf-primaryColorDark);
 }
+
+.editIcons:hover {
+    color: var(--cf-primaryColor);
+    font-weight: bold;
+    opacity: 1;
+    cursor: pointer;
+}
+
 
 .icon {
     font-size: 3.5rem;
@@ -155,10 +165,10 @@ main {
 
 .footer {
     flex-shrink: 0;
-    background-color: var(--cf-secondaryColor);   
+    background-color: var(--cf-secondaryColor);
 }
 
-.copyright{
+.copyright {
     color: var(--cf-primaryColorDark);
     font-size: .9rem;
 }
@@ -172,6 +182,7 @@ main {
 .socialicons:hover {
     color: var(--cf-primaryColor);
     opacity: 1;
+    cursor: pointer;
 }
 
 .square-img-container {
